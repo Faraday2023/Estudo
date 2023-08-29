@@ -2,6 +2,8 @@
 
 # Desenvolvedor: Marcos Paulo P. Carneiro
 
+import numpy as np
+
 print('Calculadora Básica\n')
 
 print('Menu Interativo:\n \n 1) Soma \n 2) Subtração \n 3) Divisão \n 4) Multiplicação\n')
