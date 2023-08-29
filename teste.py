@@ -19,4 +19,16 @@ if x == 1:
 elif x == 2:
    
    print('\nOperação escolhida: Subtração.')
-   soma = num1 + num2
+   sub = num1 - num2
+
+elif x == 3:
+
+   print('\nOperação escolhida: Divisão.')
+   div = num1/num2
+
+elif x == 4:
+   print('\nOperação escolhida: Multiplicação.')
+   multi = num1*num2
+
+else:
+   print('\nOperação Inválida.')
