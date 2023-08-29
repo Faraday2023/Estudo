@@ -14,21 +14,21 @@ num2 = input('\nDigite o segundo número: ')
 if x == 1:
    
    print('\nOperação escolhida: Soma.')
-   soma = num1 + num2
+   print(num1 + num2)
 
 elif x == 2:
    
    print('\nOperação escolhida: Subtração.')
-   sub = num1 - num2
+   print(num1 - num2)
 
 elif x == 3:
 
    print('\nOperação escolhida: Divisão.')
-   div = num1/num2
+   print(num1/num2)
 
 elif x == 4:
    print('\nOperação escolhida: Multiplicação.')
-   multi = num1*num2
+   print(num1*num2)
 
 else:
    print('\nOperação Inválida.')
