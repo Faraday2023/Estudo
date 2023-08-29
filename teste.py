@@ -6,11 +6,11 @@ print('Calculadora Básica\n')
 
 print('Menu Interativo:\n \n 1) Soma \n 2) Subtração \n 3) Divisão \n 4) Multiplicação\n')
 
-x = input('Digite a operação desejada: ')
-print(x)
+x = int(input('Digite a operação desejada: '))
 
-num1 = input('\nDigite o primeiro número: ')
-num2 = input('\nDigite o segundo número: ')
+num1 = int(input('\nDigite o primeiro número: '))
+
+num2 = int(input('\nDigite o segundo número: '))
 
 if x == 1:
    
