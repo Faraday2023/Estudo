@@ -31,6 +31,7 @@ for l in range(0,3):
     for c in range(0,3):
         print(f'[{matriz[l][c]:^5}]', end=' ')
     print()
+    
 print(f'A soma dos números pares é: {aux}')
 print(f'A soma dos valores da terceira coluna é: {soma}')
 print(f'O maior valor da segunda linha é: {aux_maior}')
