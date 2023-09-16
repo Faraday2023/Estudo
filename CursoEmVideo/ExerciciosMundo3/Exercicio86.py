@@ -2,16 +2,21 @@
 pelo teclado. No final, mostre a matriz na tela, com a formatação correta"""
 
 matriz = [[],[],[]]
+aux = 0
 
 for l in range(0,3):
     for c in range(0,3):
-        matriz[l][c].append(int(input(f'Digite o elemento {l}{c}: ')))
+        matriz[l].append(int(input(f'Digite o elemento {l}{c}: ')))
 
-print('-'*15)
+        if matriz[l][c] %2 == 0:
+            aux += matriz[l][c]
+
+print('-'*25)
 
 for l in range(0,3):
     for c in range(0,3):
         print(f'[{matriz[l][c]:^5}]', end=' ')
     print()
 
-print('-'*15)
+print('-'*25)
+print(aux)
