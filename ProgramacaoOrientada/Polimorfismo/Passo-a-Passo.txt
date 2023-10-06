@@ -1,0 +1,4 @@
+O polimorfismo é utilizado quando deseja-se utilizar uma mesma ação em várias subclasses, então:
+
+1 - Declara-se o método na classe pai como um método virtual (sem retorno);
+2 - Nas classes filhas também declara-se o mesmo método, porém, realizam-se as operações desejadas.

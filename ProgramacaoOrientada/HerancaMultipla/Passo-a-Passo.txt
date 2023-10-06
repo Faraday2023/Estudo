@@ -1,0 +1,11 @@
+Basicamente a mesma coisa que herança simples, porém, agora posso criar mais classes filhas e vinculá-las a outras
+classes pai.
+Exemplo:
+
+class Pai(Filha): # Classe Pai
+    class Filha(Neta, Bisneta): # Sub-Classe
+        class Neta(Bisneta): # Classe de Junção
+            class Bisneta():
+
+Assim montamos uma herança múltipla e podemos acessar as características de qualquer ponto do programa
+   

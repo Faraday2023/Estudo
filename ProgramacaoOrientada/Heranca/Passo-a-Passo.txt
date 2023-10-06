@@ -1,0 +1,9 @@
+Como criar heranças simples:
+
+1 - Definir Classe Pai
+2 - Definir Classe Filha
+3 - Atributos e métodos em comum devem ficar na classe Pai
+4 - Importar Classe Pai na classe Filha
+5 - Inicializar a Classe Pai dentro da Classe Filha
+6 - Instanciar o objeto no programa principal
+7 - Definir suas ações através dos métodos
